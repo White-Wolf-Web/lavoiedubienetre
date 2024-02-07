@@ -33,7 +33,7 @@ export default function Home() {
         <h1>Bienvenue à La Voie du Bien-Être</h1>
         <p>Découvrez un havre de paix où le massage Shiatsu ouvre la porte à une relaxation profonde et un bien-être renouvelé.</p>
         <section>
-          <h2>Nos Services</h2>
+          <h2 className='font-bold underline'>Nos Services</h2>
           <Image src="/path-to-your-image.jpg" alt="Massage Shiatsu" width={640} height={360} />
           <p>Le Shiatsu, une thérapie manuelle japonaise, aide à rééquilibrer l énergie vitale pour une santé optimale.</p>
         </section>
