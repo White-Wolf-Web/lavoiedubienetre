@@ -8,10 +8,15 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        'body-background': '#f5f5f5', // Couleur de fond personnalisée
+      },
+      maxWidth: {
+        'site-max': '1200px', // Largeur maximale pour le contenu
+      },
+      fontFamily: {
+        'title': ['Montserrat', 'sans-serif'], // Police pour les titres
+        'body': ['Open Sans', 'sans-serif'], // Police pour le corps du texte
       },
     },
   },

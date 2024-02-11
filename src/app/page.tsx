@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image';
 import Head from 'next/head';
 
@@ -5,24 +7,24 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>La Voie du Bien-Être - Massage Shiatsu</title>
-        <meta name="description" content="Profitez d'un moment de détente avec nos massages Shiatsu à [Votre Ville]. La Voie du Bien-Être est votre espace de relaxation et de soin pour le corps et l'esprit." />
+        <title>Massage, Shiatsu & Reiki à Trazegnies | La voie du bien-être</title>
+        <meta name="description" content="Massage, Shiatsu & Reiki à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant." />
         <link rel="canonical" href="https://lavoiedubienetre.be" />
         <script type="application/ld+json">
     {`
       {
         "@context": "https://schema.org",
         "@type": "HealthAndBeautyBusiness",
-        "name": "La Voie du Bien-Être",
-        "description": "Spécialiste en massage Shiatsu à [Votre Ville]. Offrez-vous un moment de détente et de bien-être.",
+        "name": "Massage, Shiatsu & Reiki à Trazegnies",
+        "description": "Massage, Shiatsu & Reiki à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
         "address": {
           "@type": "PostalAddress",
-          "streetAddress": "Votre adresse",
-          "addressLocality": "[Votre Ville]",
-          "postalCode": "[Votre Code Postal]",
-          "addressCountry": "FR"
+          "streetAddress": "Rue de Chapelle 54",
+          "addressLocality": "Trazegnies",
+          "postalCode": "6183",
+          "addressCountry": "BE"
         },
-        "telephone": "[Votre Numéro de Téléphone]",
+        "telephone": "O477131993",
         "image": "URL de l'image de votre entreprise",
         "url": "https://lavoiedubienetre.be"
       }
@@ -30,11 +32,13 @@ export default function Home() {
   </script>
       </Head>
       <main>
-        <h1>Bienvenue à La Voie du Bien-Être</h1>
+      <h1 className="text-3xl font-title text-center md:text-4xl lg:text-5xl my-4">
+      Massage, Shiatsu & Reiki à Trazegnies
+</h1>
         <p>Découvrez un havre de paix où le massage Shiatsu ouvre la porte à une relaxation profonde et un bien-être renouvelé.</p>
         <section>
           <h2 className='font-bold underline'>Nos Services</h2>
-          <Image src="/path-to-your-image.jpg" alt="Massage Shiatsu" width={640} height={360} />
+        
           <p>Le Shiatsu, une thérapie manuelle japonaise, aide à rééquilibrer l énergie vitale pour une santé optimale.</p>
         </section>
         {/* Autres sections et contenu */}
