@@ -70,6 +70,23 @@ export default function Home() {
 
 <MassageCardContainer />
       </section>
+      <section className="space-y-4 max-w-4xl mx-auto p-4">
+        <h2>Mon parcours thérapeutique</h2>
+        <h3>Qui suis-je ?</h3>
+        <p className="text-base text-gray-700 font-light leading-relaxed mb-4">Bonjour, je suis Stéphane G. fondateur de la voie du bien-être et praticien passionné des techniques de bien-être telles que le Shiatsu, le Reiki et la réflexologie plantaire. Avec plus de 20 années d&apos;expérience dans le domaine des soins corporels, je me suis dédié à étudier et à pratiquer ces méthodes traditionnelles et innovantes pour offrir le meilleur à ma clientèle.</p>
+        <h3>Mon parcours</h3>
+        <p className="text-base text-gray-700 font-light leading-relaxed mb-4">Mon intérêt pour les pratiques de bien-être a débuté par le reiki Usui en 1999 pour atteindre le dernier niveau en 2004. J’ai par la suite continué à approfondir mes connaissances et mes compétences à travers diverses formations professionnelles comme différents styles de massage, pour ensuite m’orienter vers le shiatsu pendant 3ans. Étant attiré par la médecine chinoise depuis mon plus jeune âge, ce fut une découverte inoubliable. J&apos;ai aussi choisi de me former à la réflexologie plantaire pour compléter mes cursus.</p>
+        <h3>Ma philosophie</h3>
+        <p className="text-base text-gray-700 font-light leading-relaxed mb-4">Je crois fermement en l&apos;approche holistique de la santé, où le bien-être physique, émotionnel et spirituel est interconnecté. Mon objectif est de créer un espace de &apos;guérison&apos; où mes clients peuvent trouver un équilibre et une harmonie intérieure, en utilisant des techniques qui ont fait leurs preuves à travers les siècles pour leurs vertus apaisantes et régénératrices.</p>
+       <h3>Un peu plus sur moi</h3>
+       <p className="text-base text-gray-700 font-light leading-relaxed mb-4">En dehors de ma passion pour le bien-être et les soins corporels, j&apos;ai également un grand intérêt pour les arts martiaux, une discipline que je pratique depuis 17 ans. Cet engagement dans les arts martiaux m&apos;a appris l&apos;importance de la discipline, de la persévérance et de l&apos;équilibre, des valeurs que j&apos;applique dans tous les aspects de ma vie, y compris dans mon approche professionnelle.</p>
+       <p className="text-base text-gray-700 font-light leading-relaxed mb-4">La course à pied est une autre de mes passions. Que ce soit en participant régulièrement à des courses de 20 km ou en me lançant le défi d&apos;un marathon, courir me permet de me recentrer, de clarifier mes pensées et de maintenir ma condition physique, essentielle à ma pratique professionnelle.</p>
+       <p className="text-base text-gray-700 font-light leading-relaxed mb-4">Sur un plan plus personnel, je suis le papa de 2 grandes filles, aujourd&apos;hui majeures, qui m&apos;ont enseigné la patience, l&apos;écoute et la compréhension. Ces qualités sont cruciales dans mon travail avec mes clients, car elles me permettent de me connecter avec eux sur un plan plus profond et de comprendre véritablement leurs besoins et leurs aspirations.</p>
+      
+        <h3>Pourquoi choisir la voie du bien-être ?</h3>
+        <p className="text-base text-gray-700 font-light leading-relaxed mb-4">Ici, chaque client est unique, et je m&apos;engage à offrir une expérience personnalisée qui répond aux besoins spécifiques de chacun. Ma passion pour le bien-être et mon engagement envers mes clients se reflètent dans chaque soin que je propose, visant toujours l&apos;excellence et la satisfaction totale.</p>
+        <p className="text-base text-gray-700 font-light leading-relaxed mb-4">Je vous invite à découvrir les bienfaits de nos soins et à vous embarquer dans ce voyage de bien-être. Renouez avec votre corps, libérez votre esprit et revitalisez votre âme grâce à nos méthodes éprouvées et à notre approche personnalisée.</p>
+      </section>
       </main>
 		</>
 	);
