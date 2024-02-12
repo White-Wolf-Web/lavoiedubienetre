@@ -3,7 +3,7 @@ import { Inter } from "next/font/google";
 import { Montserrat } from "next/font/google";
 import { Open_Sans } from "next/font/google";
 import "./globals.css"; 
-import Nav from "@/components/header/Nav";
+import Header from "@/components/header/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 const montserrat = Montserrat({ subsets: ["latin"] });
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={open_Sans.className}><Nav/>{children}</body>
+      <body className={open_Sans.className}><Header/>{children}</body>
     </html>
   );
 }
