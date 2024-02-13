@@ -1,9 +1,9 @@
 .sliderContainer {
-	background-color: #bad1e4;
+	background-color: black;
 	padding: 0;
 	position: relative;
 	overflow: hidden;
-    background-image: url('/img/arbre-de-vie-black.webp');
+    /* background-image: url('/img/arbre-de-vie-black.webp'); */
 	background-size: cover; 
 	background-position: center; 
 }
@@ -31,7 +31,7 @@
 	height: 100%;
 	margin: 0 auto;
 	overflow: hidden;
-	background-color: #bad1e4;
+	background-color: black;
 }
 
 /* Affichage de la description de l'image actuelle */

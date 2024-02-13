@@ -126,8 +126,8 @@ export default function Home() {
 					<CarrouselContainer />
 				</section>
 				<section>
-<ContactSection />
-        </section>
+					<ContactSection />
+				</section>
 			</main>
 		</>
 	);

@@ -7,7 +7,7 @@ import pinterest from '../../../public/img/pinterest-icon.webp'
 
 export default function Footer  () {
   return (
-    <footer className="bg-black text-white py-8 mt-4">
+    <footer className="bg-black text-white py-8 ">
       <div className="max-w-6xl mx-auto px-4 flex flex-wrap justify-between items-center">
         <div>
           <h3 className="text-lg font-bold">La Voie du Bien-Être</h3>

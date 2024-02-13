@@ -30,7 +30,7 @@ function ContactForm() {
 	};
 
 	return (
-		<form action="mailto:lavoiedubienetre@outlook.com" method="post" encType="text/plain" onSubmit={handleSubmit} className="max-w-md mx-auto bg-tr shadow-md rounded-lg space-y-4">
+		<form action="mailto:lavoiedubienetre@outlook.com" method="post" encType="text/plain" onSubmit={handleSubmit} className="max-w-md mx-auto mb-4 bg-tr shadow-md rounded-lg space-y-4">
 			<input
 				type="text"
 				name="lastName"

@@ -1,38 +1,38 @@
 [
 	{
 		"id": 1,
-		"title": "Carte 1",
-		"imageUrl": "/img/test1.jpg",
-		"imageAlt": "Description de l'image pour le SEO"
+		"title": "table de massage",
+		"imageUrl": "/img/espace-antre-temps-1.jpg",
+		"imageAlt": "Salle zen avec table de massage"
 	},
 	{
 		"id": 2,
-		"title": "Carte 1",
-		"imageUrl": "/img/test1.jpg",
-		"imageAlt": "Description de l'image pour le SEO"
+		"title": "Bouddha doré",
+		"imageUrl": "/img/espace-antre-temps-2.jpg",
+		"imageAlt": "Bouddha paisible dans la salle de massage"
 	},
 	{
 		"id": 3,
-		"title": "Carte 1",
-		"imageUrl": "/img/test1.jpg",
-		"imageAlt": "Description de l'image pour le SEO"
+		"title": "les yeux de Bouddha paisible",
+		"imageUrl": "/img/espace-antre-temps-3.jpg",
+		"imageAlt": "Yeux de Bouddha regardant une séance de shiatsu"
 	},
 	{
 		"id": 4,
-		"title": "Carte 1",
-		"imageUrl": "/img/test1.jpg",
-		"imageAlt": "Description de l'image pour le SEO"
+		"title": "un massage du dos",
+		"imageUrl": "/img/massage1.jpg",
+		"imageAlt": "Des mains massant un dos"
 	},
 	{
 		"id": 5,
-		"title": "Carte 1",
-		"imageUrl": "/img/test1.jpg",
+		"title": "reflexologie plantaire",
+		"imageUrl": "/img/massage1.jpg",
 		"imageAlt": "Description de l'image pour le SEO"
 	},
 	{
 		"id": 6,
-		"title": "Carte 1",
-		"imageUrl": "/img/test1.jpg",
+		"title": "reiki",
+		"imageUrl": "/img/massage1.jpg",
 		"imageAlt": "Description de l'image pour le SEO"
 	}
 ]
