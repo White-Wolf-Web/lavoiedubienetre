@@ -14,3 +14,28 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   font-weight: 700;
 }
+
+/* MASSAGE CARD */
+.custom-mt-2rem {
+  margin-top: 1.7rem !important;
+}
+.custom-mt-quartRem {
+  margin-top: 0.25rem !important;
+}
+
+.custom-3d-effect {
+  background: #f5f5f5; /* Fond clair pour la visibilité */
+  border-radius: 8px; /* Bords arrondis pour un effet doux */
+  box-shadow: 
+    0 -10px 15px -3px rgba(0, 0, 0, 0.1), /* Ombre vers le haut */
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), /* Ombre vers le bas */
+    0 20px 25px -5px rgba(0, 0, 0, 0.2), /* Ombre principale plus foncée et plus large pour la profondeur */
+    0 -20px 25px -5px rgba(0, 0, 0, 0.2); /* Ombre secondaire vers le haut pour la profondeur */
+}
+
+/* SLIDER  */
+.sliderContainerMaxWidth {
+margin: auto;
+  max-width: 960px;
+  max-height: 540px;
+}

@@ -1,0 +1,145 @@
+.sliderContainer {
+	background-color: #bad1e4;
+	padding: 0;
+	position: relative;
+	overflow: hidden;
+    background-image: url('/img/arbre-de-vie-black.webp');
+	background-size: cover; 
+	background-position: center; 
+}
+.sliderHeading1 {
+	color: #1D438A;
+	background-color: #bad1e4;
+}
+.indexInfo {
+	font-size: 16px;
+	margin-bottom: 10px;
+	text-align: center;
+	background-color: #bad1e4;
+	color:  #1D438A;
+}
+
+.slider {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 960px;
+	width: 100%;
+	max-height: 540px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #bad1e4;
+}
+
+/* Affichage de la description de l'image actuelle */
+.imageInfo {
+	background-color: #1D438A	;
+	color: white;
+	padding: 5px 10px;
+	border-radius: 25px;
+	margin-bottom: 10px; /* Espacement entre la description et l'image */
+	width: 400px;
+	text-align: center;
+
+}
+
+/* Image actuelle du carrousel */
+.sliderImg {
+	display: block;
+    width: 100%;
+	
+}
+
+/* Styles de base pour les boutons de navigation */
+.navigationButton {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 50%;
+	pointer-events: auto;
+	z-index: 10;
+	overflow: hidden;
+}
+
+/* Bouton pour naviguer vers l'image précédente */
+.prevButton {
+	left: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+/* Bouton pour naviguer vers l'image suivante */
+.nextButton {
+	right: 10px;
+	width: 40px;
+	height: 40px;
+}
+
+/* Icônes de flèche pour les boutons */
+.navigationButton img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+/* Conteneur pour l'image et le texte */
+.imageContainer {
+	display: flex;
+	align-items: center;
+}
+
+/* Conteneur pour l'image et le texte */
+.contentContainer {
+	display: flex;
+	align-items: center;
+}
+
+/* Conteneur pour le nom et le métier */
+.textContainer {
+	margin-left: 20px; 
+}
+
+@keyframes slideInFromSide {
+	from {
+		transform: translateX(-100%);
+	}
+	to {
+		transform: translateX(0);
+	}
+}
+
+@keyframes slideOutToSide {
+	from {
+		transform: translateX(0);
+	}
+	to {
+		transform: translateX(100%);
+	}
+}
+
+.sliderEnter {
+	will-change: transform, opacity;
+	animation: slideInFromSide 1.75s ease-out forwards;
+}
+
+.sliderExit {
+	will-change: transform, opacity;
+	animation: slideOutToSide 1.75s ease-out forwards;
+}
+
+.navigationContainer {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	transform: translateY(-50%);
+	display: flex;
+	justify-content: space-between;
+	z-index: 10;
+}
