@@ -1,5 +1,5 @@
 "use client";
-
+import type { Metadata } from "next";
 import Image from "next/image";
 import Head from "next/head";
 import CtaButton from "@/components/cta/CtaButton";
@@ -7,13 +7,42 @@ import MassageCardContainer from "@/components/card/MassageCardContainer";
 import CarrouselContainer from "@/components/carrousel/CarrouselContainer";
 import ContactSection from "@/components/contactForm/ContactSection";
 
+export const metadata: Metadata = {
+  title: "Massage, Shiatsu & Reiki à Trazegnies | La voie du bien-être",
+  description: "Massage, Shiatsu & Reiki à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+  alternates: {
+		canonical: "https://lavoiedubienetre.be",
+	},
+	viewport: {
+		width: "device-width",
+		initialScale: 1,
+	},
+	verification: {
+		google: "google",
+		yandex: "yandex",
+		yahoo: "yahoo",
+	},
+	openGraph: {
+		title: "Massage, Shiatsu & Reiki à Trazegnies | La voie du bien-être",
+		description: "Massage, Shiatsu & Reiki à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+		url: "https://lavoiedubienetre.be",
+		siteName: "Massage, Shiatsu & Reiki à Trazegnies",
+		images: [
+			{
+				url: "https://massage-domicile.com/femme-masse-a-domicile-souriante.webp",
+				width: 1200,
+				height: 400,
+				alt: "Femme souriante recevant un de mes massages",
+			},
+		],
+		locale: "fr-fr",
+		type: "website",
+} }
+
 export default function Home() {
 	return (
 		<>
 			<Head>
-				<title>Massage, Shiatsu & Reiki à Trazegnies | La voie du bien-être</title>
-				<meta name="description" content="Massage, Shiatsu & Reiki à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant." />
-				<link rel="canonical" href="https://lavoiedubienetre.be" />
 				<script type="application/ld+json">
 					{`
       {

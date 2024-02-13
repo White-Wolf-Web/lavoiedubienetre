@@ -14,9 +14,9 @@ export default function Footer  () {
           <p>Massage, Shiatsu & Reiki à Trazegnies</p>
         </div>
         <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-6">
-          <a href="/about" className="hover:underline">À propos</a>
-          <a href="/#" className="hover:underline">Services</a>
-          <a href="/#" className="hover:underline">Contact</a>
+          <a href="#" className="hover:underline">À propos</a>
+          <a href="#" className="hover:underline">Services</a>
+          <a href="#" className="hover:underline">Contact</a>
         </div>
         <div>
           <p>Contactez-nous:</p>

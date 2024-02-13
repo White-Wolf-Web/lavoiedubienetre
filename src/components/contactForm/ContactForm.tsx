@@ -31,6 +31,9 @@ function ContactForm() {
 
 	return (
 		<form action="mailto:lavoiedubienetre@outlook.com" method="post" encType="text/plain" onSubmit={handleSubmit} className="max-w-md mx-auto mb-4 bg-tr shadow-md rounded-lg space-y-4">
+			<label htmlFor="lastName" className="block text-sm font-medium text-gray-700">
+				Nom
+			</label>
 			<input
 				type="text"
 				name="lastName"
@@ -40,6 +43,9 @@ function ContactForm() {
 				required
 				className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-700"
 			/>
+			<label htmlFor="phone" className="block text-sm font-medium text-gray-700">
+				Téléphone
+			</label>
 			<input
 				type="tel"
 				name="phone"
@@ -49,6 +55,9 @@ function ContactForm() {
 				required
 				className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-700"
 			/>
+			<label htmlFor="email" className="block text-sm font-medium text-gray-700">
+				Email
+			</label>
 			<input
 				type="email"
 				name="email"
@@ -58,6 +67,9 @@ function ContactForm() {
 				required
 				className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-cyan-700"
 			/>
+			<label htmlFor="message" className="block text-sm font-medium text-gray-700">
+				Message
+			</label>
 			<textarea
 				name="message"
 				value={formData.message}

@@ -14,27 +14,27 @@ const menuItems: MenuItem[] = [
 	{
 		name: "Massage",
 		subMenu: [
-			{ name: "Massage Thaï", path: "/massage/thai" },
-			{ name: "Massage Suédois", path: "/massage/suedois" },
+			{ name: "Massage Thaï", path: "#" },
+			{ name: "Massage Suédois", path: "#" },
 		],
 	},
 	{
 		name: "Shiatsu",
 		subMenu: [
-			{ name: "Shiatsu Traditionnel", path: "/shiatsu/traditionnel" },
-			{ name: "Shiatsu sur Chaise", path: "/shiatsu/chaise" },
+			{ name: "Shiatsu Traditionnel", path: "#" },
+			{ name: "Shiatsu sur Chaise", path: "#" },
 		],
 	},
-	{ name: "Reiki", path: "/reiki" },
+	{ name: "Reiki", path: "#" },
 	{
 		name: "Articles",
 		subMenu: [
-			{ name: "Article Massage Thaï", path: "/articles/thai" },
-			{ name: "Article Massage Suédois", path: "/articles/suedois" },
+			{ name: "Article Massage Thaï", path: "#" },
+			{ name: "Article Massage Suédois", path: "#" },
 		],
 	},
-	{ name: "Qui suis-je", path: "/about" },
-	{ name: "Contact", path: "/contact" },
+	{ name: "Qui suis-je", path: "#" },
+	{ name: "Contact", path: "/#" },
 ];
 
 export default function Nav() {
@@ -79,7 +79,6 @@ export default function Nav() {
 					))}
 				</div>
 				<div className="flex-1 sm:hidden flex justify-center">
-					{/* Ajustez ici pour ne pas afficher la croix lorsque le menu est ouvert */}
 					{!isOpen && (
 						<button onClick={() => setIsOpen(true)} className="text-cyan-700" aria-label="Open menu">
 							<svg className="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

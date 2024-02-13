@@ -12,7 +12,7 @@ const open_Sans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Massage Relaxant - Shiatsu | La Voie du Bien-Être",
-  description: "Découvrez nos massages Shiatsu pour une relaxation profonde et un bien-être durable. Situé à Trazegnie, La Voie du Bien-Être vous accueille dans un espace dédié à votre sérénité.",
+  description: "Découvrez nos massages Shiatsu pour une relaxation profonde et un bien-être durable. Situé à Trazegnie dans un espace dédié à votre sérénité.",
 };
 
 export default function RootLayout({
