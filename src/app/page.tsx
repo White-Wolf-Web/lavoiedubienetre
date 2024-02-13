@@ -5,6 +5,7 @@ import Head from "next/head";
 import CtaButton from "@/components/cta/CtaButton";
 import MassageCardContainer from "@/components/card/MassageCardContainer";
 import CarrouselContainer from "@/components/carrousel/CarrouselContainer";
+import ContactSection from "@/components/contactForm/ContactSection";
 
 export default function Home() {
 	return (
@@ -124,6 +125,9 @@ export default function Home() {
 				<section>
 					<CarrouselContainer />
 				</section>
+				<section>
+<ContactSection />
+        </section>
 			</main>
 		</>
 	);
