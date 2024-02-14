@@ -24,13 +24,13 @@ export default function Footer  () {
           <p>0477 13 19 93</p>
           <div className="flex space-x-4 mt-4">
             <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <Image src={facebook} alt="facebook" width={40} height={40} layout="responsive" />
+            <Image src={facebook} alt="facebook" width={40} height={40} layout="responsive" title='facebook' />
            </Link>
            <Link href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
-            <Image src={pinterest} alt="pinterest" width={40} height={40} layout="responsive" />
+            <Image src={pinterest} alt="pinterest" width={40} height={40} layout="responsive" title='pinterest' />
            </Link>
            <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <Image src={Instagram} alt="instagram" width={40} height={40} layout="responsive" />
+            <Image src={Instagram} alt="instagram" width={40} height={40} layout="responsive" title='intagram' />
            </Link>
             {/* Ajoutez d'autres icônes de réseaux sociaux ici */}
           </div>
