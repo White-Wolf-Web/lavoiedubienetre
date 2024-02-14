@@ -14,8 +14,8 @@ const menuItems: MenuItem[] = [
 	{
 		name: "Massage",
 		subMenu: [
-			{ name: "Massage Thaï", path: "#" },
-			{ name: "Massage Suédois", path: "#" },
+			{ name: "Massage sportif", path: "#" },
+			{ name: "Massage relaxant", path: "#" },
 		],
 	},
 	{
@@ -30,7 +30,6 @@ const menuItems: MenuItem[] = [
 		name: "Articles",
 		subMenu: [
 			{ name: "Article Massage Thaï", path: "#" },
-			{ name: "Article Massage Suédois", path: "#" },
 		],
 	},
 	{ name: "Qui suis-je", path: "#" },

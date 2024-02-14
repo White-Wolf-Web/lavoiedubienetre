@@ -1,7 +1,7 @@
 
 import type { Metadata } from "next";
-import Image from "next/image";
-import Head from "next/head";
+import { MetadataHomePage } from "@/components/metadata/MetadataHomePage";
+//import Image from "next/image";
 import CtaButton from "@/components/cta/CtaButton";
 import MassageCardContainer from "@/components/card/MassageCardContainer";
 import CarrouselContainer from "@/components/carrousel/CarrouselContainer";
@@ -42,28 +42,7 @@ export const metadata: Metadata = {
 export default function Home() {
 	return (
 		<>
-			<Head>
-				<script type="application/ld+json">
-					{`
-      {
-        "@context": "https://schema.org",
-        "@type": "HealthAndBeautyBusiness",
-        "name": "Massage, Shiatsu & Reiki à Trazegnies",
-        "description": "Massage, Shiatsu & Reiki à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "Rue de Chapelle 54",
-          "addressLocality": "Trazegnies",
-          "postalCode": "6183",
-          "addressCountry": "BE"
-        },
-        "telephone": "O477131993",
-        "image": "URL de l'image de votre entreprise",
-        "url": "https://www.lavoiedubienetre.be"
-      }
-    `}
-				</script>
-			</Head>
+		
 			<main>
 				<h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight">Massage, Shiatsu & Reiki à Trazegnies</h1>
 
@@ -157,6 +136,7 @@ export default function Home() {
 				<section>
 					<ContactSection />
 				</section>
+				<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataHomePage) }} />
 			</main>
 		</>
 	);
