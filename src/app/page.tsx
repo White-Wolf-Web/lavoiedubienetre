@@ -1,4 +1,3 @@
-
 import type { Metadata } from "next";
 import { MetadataHomePage } from "@/components/metadata/MetadataHomePage";
 //import Image from "next/image";
@@ -8,9 +7,9 @@ import CarrouselContainer from "@/components/carrousel/CarrouselContainer";
 import ContactSection from "@/components/contactForm/ContactSection";
 
 export const metadata: Metadata = {
-  title: "Massage, Shiatsu & Reiki à Trazegnies | La voie du bien-être",
-  description: "Massage, Shiatsu & Reiki à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
-  alternates: {
+	title: "Massage, Shiatsu & Reiki à Trazegnies | La voie du bien-être",
+	description: "Massage, Shiatsu & Reiki à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+	alternates: {
 		canonical: "https://lavoiedubienetre.be",
 	},
 	viewport: {
@@ -37,12 +36,12 @@ export const metadata: Metadata = {
 		],
 		locale: "fr-fr",
 		type: "website",
-} }
+	},
+};
 
 export default function Home() {
 	return (
 		<>
-		
 			<main>
 				<h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight">Massage, Shiatsu & Reiki à Trazegnies</h1>
 

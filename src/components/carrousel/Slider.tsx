@@ -3,13 +3,13 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import styles from "./Slider.module.css";
-import sliderData from '@/data/sliderData.json'
+import sliderData from "@/data/sliderData.json";
 import leftChevron from "../../../public/img/left-arrow.svg";
 import rightChevron from "../../../public/img/right-arrow.svg";
 
 type CarouselItem = {
 	imageUrl: string;
-	imageAlt:string;
+	imageAlt: string;
 	id: number;
 	title: string;
 };
@@ -28,38 +28,37 @@ const Slider = ({ items }: CarouselProps) => {
 	function toggleImage(indexPayload: number) {
 		setExit(true); // Commence l'animation de sortie
 		setTimeout(() => {
-		  setSliderIndex((state) => {
-			const newIndex = indexPayload + state;
-			if (newIndex > typedSliderData.length) {
-			  return 1;
-			} else if (newIndex < 1) {
-			  return typedSliderData.length;
-			} else {
-			  return newIndex;
-			}
-		  });
-		  setExit(false); // Prépare pour l'animation d'entrée
-		  setAnimate(false);
+			setSliderIndex((state) => {
+				const newIndex = indexPayload + state;
+				if (newIndex > typedSliderData.length) {
+					return 1;
+				} else if (newIndex < 1) {
+					return typedSliderData.length;
+				} else {
+					return newIndex;
+				}
+			});
+			setExit(false); // Prépare pour l'animation d'entrée
+			setAnimate(false);
 		}, 1700); // Ce délai doit correspondre à la durée de votre animation de sortie
-	  }
-	
-	  useEffect(() => {
+	}
+
+	useEffect(() => {
 		let intervalID: NodeJS.Timeout;
 		if (!exit) {
-		  setAnimate(true);
-		  intervalID = setInterval(() => toggleImage(1), 6000);
+			setAnimate(true);
+			intervalID = setInterval(() => toggleImage(1), 6000);
 		}
 		return () => {
-		  clearInterval(intervalID);
+			clearInterval(intervalID);
 		};
-	  }, [sliderIndex, exit]);
+	}, [sliderIndex, exit]);
 
-      const currentItem = items.find((item) => item.id === sliderIndex); 
+	const currentItem = items.find((item) => item.id === sliderIndex);
 
 	return (
 		<div className={styles.sliderContainer}>
-			
-		{/*	<p className={styles.indexInfo}>
+			{/*	<p className={styles.indexInfo}>
 				{sliderIndex} / {typedSliderData.length}
     </p>*/}
 
@@ -73,19 +72,15 @@ const Slider = ({ items }: CarouselProps) => {
 			</div>
 
 			<div className={`${styles.slider} ${animate ? styles.sliderEnter : ""} ${exit ? styles.sliderExit : ""}`}>
-
 				<div className={styles.contentContainer}>
 					<Image
 						src={currentItem?.imageUrl || "/images/placeholder.jpg"}
 						alt={currentItem?.imageAlt || "Default alt text"}
 						title={currentItem?.title || "Photo de la personne massée"}
-						className={styles.sliderImg}
-						width={960}
-						height={540}
+						width={747}
+						height={420}
 					/>
-					
 				</div>
-			
 			</div>
 		</div>
 	);

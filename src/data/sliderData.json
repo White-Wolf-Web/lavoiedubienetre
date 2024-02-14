@@ -2,37 +2,37 @@
 	{
 		"id": 1,
 		"title": "table de massage",
-		"imageUrl": "/img/espace-antre-temps-1.jpg",
+		"imageUrl": "/img/espace-antre-temps-1.webp",
 		"imageAlt": "Salle zen avec table de massage"
 	},
 	{
 		"id": 2,
 		"title": "Bouddha doré",
-		"imageUrl": "/img/espace-antre-temps-2.jpg",
+		"imageUrl": "/img/espace-antre-temps-2.webp",
 		"imageAlt": "Bouddha paisible dans la salle de massage"
 	},
 	{
 		"id": 3,
 		"title": "les yeux de Bouddha paisible",
-		"imageUrl": "/img/espace-antre-temps-3.jpg",
+		"imageUrl": "/img/espace-antre-temps-3.webp",
 		"imageAlt": "Yeux de Bouddha regardant une séance de shiatsu"
 	},
 	{
 		"id": 4,
 		"title": "un massage du dos",
-		"imageUrl": "/img/massage1.jpg",
+		"imageUrl": "/img/massage1.webp",
 		"imageAlt": "Des mains massant un dos"
 	},
 	{
 		"id": 5,
 		"title": "reflexologie plantaire",
-		"imageUrl": "/img/massage1.jpg",
+		"imageUrl": "/img/massage1.webp",
 		"imageAlt": "Description de l'image pour le SEO"
 	},
 	{
 		"id": 6,
 		"title": "reiki",
-		"imageUrl": "/img/massage1.jpg",
+		"imageUrl": "/img/massage1.webp",
 		"imageAlt": "Description de l'image pour le SEO"
 	}
 ]
