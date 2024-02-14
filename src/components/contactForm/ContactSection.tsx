@@ -5,7 +5,7 @@ import ContactForm from './ContactForm'
 export default function ContactSection() {
   return (
     <div className="flex flex-col justify-between items-center h-[830px] mx-auto">
-<ContactForm />
+{/*<ContactForm />*/}
 <GoogleMap />
     </div>
   )
