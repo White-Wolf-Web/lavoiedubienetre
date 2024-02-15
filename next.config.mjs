@@ -6,8 +6,8 @@ const nextConfig = {
   async redirects() {
     return [
       {
-        source: 'https://www.lavoiedubienetre.be/:path*',
-        destination: 'https://lavoiedubienetre.be/:path*',
+        source: 'https://www.lavoiedubienetre.be/',
+        destination: 'https://lavoiedubienetre.be/',
         permanent: true,
       },
     ];
