@@ -28,7 +28,7 @@ export const metadata: Metadata = {
 		siteName: "Massage, Shiatsu & Reiki à Trazegnies",
 		images: [
 			{
-				url: "https://massage-domicile.com/femme-masse-a-domicile-souriante.webp",
+				url: "https://lavoiedubienetre.be/massage-femme-souriante.webp",
 				width: 1200,
 				height: 400,
 				alt: "Femme souriante recevant un de mes massages",
@@ -37,6 +37,9 @@ export const metadata: Metadata = {
 		locale: "fr-fr",
 		type: "website",
 	},
+	twitter: {
+		
+	}
 };
 
 export default function Home() {
@@ -82,7 +85,7 @@ export default function Home() {
 				<section>
 					<MassageCardContainer />
 				</section>
-				<section className="space-y-4 max-w-4xl mx-auto p-4">
+				<section id="QuiJeSuis" className="space-y-4 max-w-4xl mx-auto p-4">
 					<h2 className="text-3xl md:text-4xl leading-snug mt-4">Mon parcours thérapeutique</h2>
 					<h3 className="text-2xl md:text-3xl text-left custom-mt-2rem leading-normal">Qui suis-je ?</h3>
 					<p className="text-base text-gray-700 font-light leading-relaxed custom-mt-quartRem mb-4">
@@ -129,7 +132,7 @@ export default function Home() {
 						grâce à nos méthodes éprouvées et à notre approche personnalisée.
 					</p>
 				</section>
-				<section>
+				<section id="carrousel">
 					<CarrouselContainer />
 				</section>
 				<section>

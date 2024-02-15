@@ -14,26 +14,26 @@ const menuItems: MenuItem[] = [
 	{
 		name: "Massage",
 		subMenu: [
-			{ name: "Massage sportif", path: "#" },
-			{ name: "Massage relaxant", path: "#" },
+			{ name: "Massage Sportif", path: "/massage/sportif" },
+			{ name: "Massage Relaxant", path: "/massage/relaxant" },
+			{ name: "Massage Anti-Cellulite", path: "/massage/anti-cellulite" },
+			{ name: "Douceur Dorsale", path: "/massage/douceur-dorsale" },
+			{ name: "Voyage des Sens", path: "/massage/voyage-des-sens" },
 		],
 	},
 	{
 		name: "Shiatsu",
 		subMenu: [
-			{ name: "Shiatsu Traditionnel", path: "#" },
-			{ name: "Shiatsu sur Chaise", path: "#" },
+			{ name: "Toucher Shiatsu", path: "/shiatsu/traditionnel" },
+			{ name: "Shiatsu sur Chaise", path: "/shiatsu/amma" },
 		],
 	},
-	{ name: "Reiki", path: "#" },
+	{ name: "Reiki", path: "/reiki" },
 	{
-		name: "Articles",
-		subMenu: [
-			{ name: "Article Massage Thaï", path: "#" },
-		],
+		name: "Articles",  path: "/#" 
 	},
-	{ name: "Qui suis-je", path: "#" },
-	{ name: "Contact", path: "/#" },
+	{ name: "Qui suis-je", path: "/#QuiJeSuis" },
+	{ name: "Contact", path: "/#contact" },
 ];
 
 export default function Nav() {

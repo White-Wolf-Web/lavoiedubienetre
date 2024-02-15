@@ -13,6 +13,7 @@ export default function Header() {
           alt="Statue zen dans la salle de massage"
           width={1500} 
           height={570} 
+          title='Bouddha paisible déposé autour de labradorite dans la salle de massage'
           layout="responsive" 
           priority
         />

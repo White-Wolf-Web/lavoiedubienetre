@@ -1,4 +1,5 @@
 "use client"
+// LazyIframe.tsx
 import React from 'react';
 
 interface LazyIframeProps {
