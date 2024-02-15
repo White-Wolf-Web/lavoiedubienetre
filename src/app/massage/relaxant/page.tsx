@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 export default function page() {
 	return (
 		<main>
-			<h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight">Découvrez le Massage Relaxant</h1>
+			<h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight">Découvrez le Massage Relaxant</h1>
       <section className="container space-y-4 max-w-4xl mx-auto p-4 mb-12">
 			<p className="text-base text-gray-800 font-light leading-relaxed mb-4 text-center"><strong>Votre Escapade vers le Bien-être Ultime</strong></p>
 

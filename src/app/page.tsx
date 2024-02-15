@@ -44,7 +44,7 @@ export default function Home() {
 	return (
 		<>
 			<main>
-				<h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight">Massage, Shiatsu & Reiki à Trazegnies</h1>
+				<h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight">Massage, Shiatsu & Reiki à Trazegnies</h1>
 
 				<section className="container space-y-4 max-w-4xl mx-auto p-4 mb-12">
 					<p className="text-base text-gray-800 font-light leading-relaxed mb-4">
@@ -84,7 +84,7 @@ export default function Home() {
 						relaxe mais revitalise, offrant une évasion du stress quotidien et un chemin vers un équilibre intérieur profond.
 					</p>
 					<div className="flex justify-end">
-						{" "}
+						
 						<CtaButton />
 					</div>
 				</section>
