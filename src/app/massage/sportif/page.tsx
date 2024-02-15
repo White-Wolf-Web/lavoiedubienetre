@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Massage sportif à Trazegnies | La voie du bien-être",
 		description: "Massage sportif à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
-		url: "https://lavoiedubienetre.be/massage/massage-relaxant",
+		url: "https://lavoiedubienetre.be/massage/sportif",
 		siteName: "Massage, Shiatsu & Reiki à Trazegnies",
 		images: [
 			{

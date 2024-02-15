@@ -64,7 +64,7 @@ export default function Nav() {
 									<div className="absolute hidden group-hover:flex flex-col bg-white shadow-2xl mt-2 rounded-md">
 										{item.subMenu.map((subItem, subIndex) => (
 											<Link href={subItem.path!} key={subIndex} passHref>
-												<div className="block py-2 px-4 text-sm text-cyan-700 hover:text-white">{subItem.name}</div>
+												<div className="block py-2 px-4 text-sm text-cyan-700 hover:text-cyan-800">{subItem.name}</div>
 											</Link>
 										))}
 									</div>
