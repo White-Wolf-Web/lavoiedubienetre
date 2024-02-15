@@ -53,17 +53,17 @@ export default function Home() {
 						chaque technique est une clé pour déverrouiller votre potentiel de bien-être.
 					</p>
 					<p className="text-base text-gray-900 font-light leading-relaxed mb-4">
-						Shiatsu : Une thérapie manuelle japonaise qui, par une stimulation douce des points d&apos;acupuncture à travers le vêtement, ne se contente pas de masser mais libère les
+						<strong>Shiatsu</strong> : Une thérapie manuelle japonaise qui, par une stimulation douce des points d&apos;acupuncture à travers le vêtement, ne se contente pas de masser mais libère les
 						blocages énergétiques. Ce processus permet de rééquilibrer les flux vitaux, offrant ainsi soulagement et détente musculaire, et invitent à un lâcher-prise profond, propice au
 						bien-être général.
 					</p>
 					<p className="text-base text-gray-700 font-light leading-relaxed mb-4">
-						Reiki : Au-delà d&apos;une simple pratique énergétique, le Reiki est un voyage vers le rééquilibrage et la guérison sur tous les plans de l&apos;être. Par une stimulation non
+					<strong>Reiki</strong>: Au-delà d&apos;une simple pratique énergétique, le Reiki est un voyage vers le rééquilibrage et la guérison sur tous les plans de l&apos;être. Par une stimulation non
 						invasive, il apaise le mental et le corps, favorisant une relaxation profonde et stimulante. Cette technique ancienne est un pilier de notre pratique, visant la revitalisation
 						et l&apos;harmonisation complète de l&apos;individu.
 					</p>
 					<p className="text-base text-gray-900 font-light leading-relaxed mb-4">
-						Réflexologie Plantaire : Cette technique ne se limite pas au massage des pieds mais est une voie vers une santé optimale et un bien-être accru. Chaque pression appliquée est un
+					<strong>Réflexologie Plantaire </strong>: Cette technique ne se limite pas au massage des pieds mais est une voie vers une santé optimale et un bien-être accru. Chaque pression appliquée est un
 						geste d&apos;acupression qui soulage les courbatures et libère les tensions, stimulant les zones réflexes liées aux organes et favorisant ainsi une guérison holistique.
 					</p>
 					<p className="text-base text-gray-700 font-light leading-relaxed mb-4">
@@ -76,12 +76,12 @@ export default function Home() {
 					</p>
 					<p className="text-base text-gray-800 font-light leading-relaxed mb-4">
 						Que vous cherchiez à relâcher les tensions du quotidien, à revitaliser votre énergie ou simplement à vous accorder un moment de paix, la voie du bien-être à Trazegnies est
-						votre sanctuaire. Découvrez le pouvoir de la guérison par le toucher, un processus stimulant et régénérant qui libère les tensions et permet de rééquilibrer l&apos;énergie
+						votre sanctuaire. Découvrez le pouvoir de la guérison par le toucher, un processus stimulant et régénérant qui <strong>libère les tensions</strong> et permet de rééquilibrer l&apos;énergie
 						vitale.
 					</p>
 					<p className="text-base text-gray-800 font-light leading-relaxed mb-4">
 						Réservez votre séance dès aujourd&apos;hui et prenez le premier pas vers un bien-être durable et complet. Vivez l&apos;expérience unique d&apos;un massage qui non seulement
-						relaxe mais revitalise, offrant une évasion du stress quotidien et un chemin vers un équilibre intérieur profond.
+						relaxe mais revitalise, offrant <strong>une évasion du stress quotidien </strong>et un chemin vers un équilibre intérieur profond.
 					</p>
 					<div className="flex justify-end">
 						
