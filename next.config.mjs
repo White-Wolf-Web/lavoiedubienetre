@@ -1,17 +1,16 @@
-// next.config.mjs
-import { NextConfig } from 'next';
-
-/** @type {NextConfig} */
-const nextConfig = {
-  async redirects() {
-    return [
-      {
-        source: 'https://www.lavoiedubienetre.be/',
-        destination: 'https://lavoiedubienetre.be/',
-        permanent: true,
-      },
-    ];
-  },
-};
+// /** @type {import('next').NextConfig} */
+//const nextConfig = {};
 
 export default nextConfig;
+
+module.exports = {
+	async redirects() {
+		return [
+			{
+                source: "https://www.lavoiedubienetre.be/:path*",
+                destination: "https://lavoiedubienetre.be/:path*",
+				permanent: true,
+			},
+		];
+	},
+};
