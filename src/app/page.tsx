@@ -37,9 +37,7 @@ export const metadata: Metadata = {
 		locale: "fr-fr",
 		type: "website",
 	},
-	twitter: {
-		
-	}
+	twitter: {},
 };
 
 export default function Home() {
@@ -51,32 +49,40 @@ export default function Home() {
 				<section className="container space-y-4 max-w-4xl mx-auto p-4 mb-12">
 					<p className="text-base text-gray-800 font-light leading-relaxed mb-4">
 						Au cœur de Trazegnies, la voie du bien-être vous invite à découvrir l&apos;art ancestral du massage, une porte ouverte vers l&apos;équilibre et l&apos;harmonie intérieure.
-						Spécialistes en Shiatsu, Reiki et réflexologie plantaire, nous sommes engagés à offrir des soins personnalisés et profondément régénérants pour le corps et l&apos;esprit.
+						Spécialistes en Shiatsu, Reiki, et réflexologie plantaire, nous sommes engagés à offrir des soins personnalisés et profondément régénérants pour le corps et l&apos;esprit, où
+						chaque technique est une clé pour déverrouiller votre potentiel de bien-être.
 					</p>
 					<p className="text-base text-gray-900 font-light leading-relaxed mb-4">
-						Shiatsu : Une thérapie manuelle japonaise qui stimule les points d&apos;acupuncture à travers le vêtement, favorisant ainsi la circulation énergétique, la détente musculaire et
-						le bien-être général.
+						Shiatsu : Une thérapie manuelle japonaise qui, par une stimulation douce des points d&apos;acupuncture à travers le vêtement, ne se contente pas de masser mais libère les
+						blocages énergétiques. Ce processus permet de rééquilibrer les flux vitaux, offrant ainsi soulagement et détente musculaire, et invitent à un lâcher-prise profond, propice au
+						bien-être général.
 					</p>
 					<p className="text-base text-gray-700 font-light leading-relaxed mb-4">
-						Reiki : Une pratique énergétique d&apos;origine japonaise pour le rééquilibrage et la guérison, qui travaille sur le plan physique, émotionnel et spirituel, invitant à une
-						profonde relaxation et à une revitalisation de l&apos;ensemble de l&apos;être
+						Reiki : Au-delà d&apos;une simple pratique énergétique, le Reiki est un voyage vers le rééquilibrage et la guérison sur tous les plans de l&apos;être. Par une stimulation non
+						invasive, il apaise le mental et le corps, favorisant une relaxation profonde et stimulante. Cette technique ancienne est un pilier de notre pratique, visant la revitalisation
+						et l&apos;harmonisation complète de l&apos;individu.
 					</p>
 					<p className="text-base text-gray-900 font-light leading-relaxed mb-4">
-						Réflexologie Plantaire : Une technique de massage des pieds qui repose sur le principe que chaque zone du pied est liée à un organe ou une fonction du corps, offrant ainsi une
-						voie vers une santé optimale et un bien-être accru.
+						Réflexologie Plantaire : Cette technique ne se limite pas au massage des pieds mais est une voie vers une santé optimale et un bien-être accru. Chaque pression appliquée est un
+						geste d&apos;acupression qui soulage les courbatures et libère les tensions, stimulant les zones réflexes liées aux organes et favorisant ainsi une guérison holistique.
 					</p>
 					<p className="text-base text-gray-700 font-light leading-relaxed mb-4">
-						Chaque soin est une invitation au voyage intérieur, un moment unique où le temps suspend son vol pour laisser place à une expérience de relaxation et de renouveau. Dans un
-						cadre apaisant et une atmosphère enveloppante, nos praticiens expérimentés vous guident vers le chemin de la détente et de la régénération.
+						Dans notre havre de paix, chaque soin est une porte vers un voyage intérieur, un moment suspendu où la relaxation et le renouveau sont au rendez-vous. Nos massages sur chaise,
+						ou massage assis, sont une invitation à expérimenter le soulagement immédiat des tensions accumulées, offrant une pause relaxante dans votre journée chargée.
 					</p>
 					<p className="text-base text-gray-800 font-light leading-relaxed mb-4">
-						Nous sommes fiers d&apos;offrir un espace où le calme et la sérénité règnent, permettant à chacun de se reconnecter avec soi-même. Que vous cherchiez à relâcher les tensions du
-						quotidien, à revitaliser votre énergie ou simplement à vous accorder un moment de paix, la voie du bien-être est votre destination de choix à Trazegnies.
+						Dans un cadre apaisant et une atmosphère enveloppante, nos praticiens expérimentés vous guident vers le chemin de la détente et de la régénération. Nous sommes fiers
+						d&apos;offrir un espace où calme et sérénité règnent, permettant à chacun de se reconnecter avec soi-même.
 					</p>
 					<p className="text-base text-gray-800 font-light leading-relaxed mb-4">
-						Découvrez le pouvoir de la guérison par le toucher. Réservez votre séance dès aujourd&apos;hui et prenez le premier pas vers un bien-être durable et complet.
+						Que vous cherchiez à relâcher les tensions du quotidien, à revitaliser votre énergie ou simplement à vous accorder un moment de paix, la voie du bien-être à Trazegnies est
+						votre sanctuaire. Découvrez le pouvoir de la guérison par le toucher, un processus stimulant et régénérant qui libère les tensions et permet de rééquilibrer l&apos;énergie
+						vitale.
 					</p>
-
+					<p className="text-base text-gray-800 font-light leading-relaxed mb-4">
+						Réservez votre séance dès aujourd&apos;hui et prenez le premier pas vers un bien-être durable et complet. Vivez l&apos;expérience unique d&apos;un massage qui non seulement
+						relaxe mais revitalise, offrant une évasion du stress quotidien et un chemin vers un équilibre intérieur profond.
+					</p>
 					<div className="flex justify-end">
 						{" "}
 						<CtaButton />
