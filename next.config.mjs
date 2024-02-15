@@ -1,9 +1,5 @@
-
-import { NextConfig } from 'next';
-
-/** @type {NextConfig} */
-const nextConfig = {
-  async redirects() {
+/** @type {import('next').NextConfig} */
+const nextConfig = {  async redirects() {
     return [
       {
         source: '/:path*', // Capture tout chemin après le domaine
@@ -19,12 +15,3 @@ export default nextConfig;
 
 
 
-
-
-
-
-
-
-
-/* @type {import('next').NextConfig} */
-//const nextConfig = {};
