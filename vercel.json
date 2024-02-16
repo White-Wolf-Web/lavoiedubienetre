@@ -1,15 +1,9 @@
 {
     "redirects": [
       {
-        "source": "/(.*)",
-        "destination": "https://lavoiedubienetre.be/$1",
-        "permanent": true,
-        "has": [
-          {
-            "type": "host",
-            "value": "www.lavoiedubienetre.be"
-          }
-        ]
+        "source": "https://www.lavoiedubienetre.be/:path*",
+        "destination": "https://lavoiedubienetre.be/:path*",
+        "permanent": true
       }
     ]
   }
