@@ -3,7 +3,7 @@ import { MetadataVoyageDesSens } from "@/components/metadata/MetadataVoyageDesSe
 
 export const metadata: Metadata = {
 	title: "Massage doux voyage des sens à Trazegnies | Bien-être",
-	description: "Massage doux à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+	description: "Massage doux à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/massage/voyage-des-sens",
 	},
