@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Massage Dos, Epaules & Nuque à Trazegnies | La voie du bien-être",
+	title: "Massage Dos, Epaules & Nuque à Trazegnies | Douceur dorsale",
 	description: "Massage du dos, des épaules et de la nuque à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/massage/douceur-dorsale",

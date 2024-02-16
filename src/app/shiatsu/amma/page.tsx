@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { MetadataAmma } from "@/components/metadata/MetadataAmma";
 
 export const metadata: Metadata = {
-	title: "Massage sur chaise ou Amma à Trazegnies | La voie du bien-être",
+	title: "Massage sur chaise ou Amma à Trazegnies | Bien-être",
 	description: "Amma ou Massage sur Chaise à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/shiatsu/amma",
