@@ -37,8 +37,21 @@ export const metadata: Metadata = {
 		locale: "fr-fr",
 		type: "website",
 	},
-	twitter: {},
-};
+	twitter: {
+	  card: "summary_large_image",
+	  site: "@voiedubienetre", 
+	  title: "Massage, Shiatsu & Reiki à Trazegnies | La voie du bien-être",
+	  description: "Massage, Shiatsu & Reiki à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+	images: [
+			{
+				url: "https://lavoiedubienetre.be/massage-femme-souriante.webp",
+				width: 1200,
+				height: 400,
+				alt: "Femme souriante recevant un de mes massages",
+			},
+		],
+	},
+  };
 
 export default function Home() {
 	return (
