@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { MetadataShiatsu } from "@/components/metadata/MetadataShiatsu";
 
 export const metadata: Metadata = {
 	title: "Shiatsu à Trazegnies | La voie du bien-être",
@@ -101,6 +102,7 @@ export default function page() {
 					Laissez-nous vous accompagner dans votre voyage vers un bien-être intégral, où chaque pression exercée ouvre la voie à un équilibre retrouvé entre votre corps et votre esprit.
 				</p>
 			</section>
+			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataShiatsu) }} />
 		</main>
 	);
 }

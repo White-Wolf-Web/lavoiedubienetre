@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { MetadataAmma } from "@/components/metadata/MetadataAmma";
 
 export const metadata: Metadata = {
 	title: "Massage sur chaise ou Amma à Trazegnies | La voie du bien-être",
@@ -100,6 +101,7 @@ export default function page() {
 					de votre quotidien. Avec nous vous redécouvrez le plaisir de prendre soin de vous, simplement, efficacement.
 				</p>
 			</section>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataAmma) }} />
 		</main>
 	);
 }

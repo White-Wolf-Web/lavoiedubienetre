@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { MetadataMassageSportif } from "@/components/metadata/MetadataMassageSportif";
 
 export const metadata: Metadata = {
 	title: "Massage sportif à Trazegnies | La voie du bien-être",
@@ -42,7 +43,7 @@ export default function page() {
 				</p>
 				<p className="text-base text-gray-800 font-light leading-relaxed mb-4">
 					Dans l&apos;univers du sport, la <strong>performance et la récupération sont deux piliers essentiels pour tout athlète</strong>, qu&apos;il soit amateur passionné ou professionnel aguerri. Le
-					massage sportif, offert chez [Nom du Centre], est conçu spécifiquement pour répondre à ces besoins, en combinant techniques avancées et approche personnalisée pour optimiser votre
+					massage sportif, offert chez La voie du bien-être, est conçu spécifiquement pour répondre à ces besoins, en combinant techniques avancées et approche personnalisée pour optimiser votre
 					bien-être physique et booster vos performances.
 				</p>
 
@@ -96,6 +97,7 @@ export default function page() {
 					l&apos;expertise et le dévouement de nos thérapeutes spécialisés en massage sportif.
 				</p>
 			</section>
+			<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataMassageSportif) }} />
 		</main>
 	);
 }

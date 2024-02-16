@@ -23,7 +23,7 @@ export default function Footer  () {
           <p>lavoiedubienetre@outllok.com</p>
           <p>0477 13 19 93</p>
           <div className="flex space-x-4 mt-4">
-            <Link href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+            <Link href="https://www.facebook.com/lavoiedubienetremassageshiatsureikireflexologie/" target="_blank" rel="noopener noreferrer">
             <Image src={facebook} alt="Facebook" width={40} height={40} layout="responsive" title='Facebook' />
            </Link>
            <Link href="https://pinterest.com" target="_blank" rel="noopener noreferrer">

@@ -1,3 +1,4 @@
+import { MetadataReiki } from "@/components/metadata/MetadataReiki";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -94,6 +95,7 @@ export default function page() {
 					espace où chaque soin est une étape vers la découverte de votre potentiel intérieur.
 				</p>
 			</section>
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataReiki) }} />
 		</main>
 	);
 }

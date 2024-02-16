@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { MetadataVoyageDesSens } from "@/components/metadata/MetadataVoyageDesSens";
 
 export const metadata: Metadata = {
 	title: "Massage doux voyage des sens à Trazegnies | La voie du bien-être",
@@ -62,6 +63,7 @@ export default function page() {
 
     <p className="text-base text-gray-800 font-light leading-relaxed mb-4">Nous vous invitons à prendre rendez-vous pour votre &apos;Voyage des Sens&apos;. Préparez-vous à être transporté dans un monde où le temps s&apos;arrête, où chaque sensation est une découverte, et chaque instant un pas de plus vers <strong>un bien-être profond</strong>. Pendant ce moment, embarquez pour une odyssée de douceur et de relaxation, et laissez votre corps et <strong>votre esprit se régénérer sous le soin attentif</strong> de notre expert.</p>
 </section>
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(MetadataVoyageDesSens) }} />
 </main>
   )
 }
