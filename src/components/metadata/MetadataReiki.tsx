@@ -102,8 +102,14 @@ export const MetadataReiki = [
 		  },
 		  "reviewBody": "C etait une expérience incroyable avec un résultat excellent les jours qui ont suivi.. j ai adoré.."
 		}		  
-    ]
-}, 
+  ],
+  "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "bestRating": "5",
+      "ratingCount": "14"
+    }
+},
         {
             "@context": "https://schema.org",
             "@type": "FAQPage",

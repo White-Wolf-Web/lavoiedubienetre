@@ -151,8 +151,14 @@ export const MetadataShiatsu = [
 		  "reviewBody": "Incontestablement entre de bonnes mains. On y entre un poids sur les épaules. On en sort apaisé. A fréquenter les yeux fermés."
 		}
 			  
-	  ]
-	},
+	],
+	"aggregateRating": {
+	  "@type": "AggregateRating",
+	  "ratingValue": "5",
+	  "bestRating": "5",
+	  "ratingCount": "17"
+	}
+  },
 	{
         "@context": "https://schema.org",
         "@type": "FAQPage",
