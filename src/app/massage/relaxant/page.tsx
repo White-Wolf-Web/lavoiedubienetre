@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 		siteName: "Massage, Shiatsu & Reiki à Trazegnies",
 		images: [
 			{
-				url: "https://lavoiedubienetre.be/massage-femme-souriante.webp",
+				url: "https://lavoiedubienetre.be/img/massage-femme-souriante.webp",
 				width: 1200,
 				height: 400,
 				alt: "Femme souriante recevant un de mes massages",
