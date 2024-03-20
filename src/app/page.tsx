@@ -7,8 +7,8 @@ import CarrouselContainer from "@/components/carrousel/CarrouselContainer";
 import ContactSection from "@/components/contactForm/ContactSection";
 
 export const metadata: Metadata = {
-	title: "Massage, Shiatsu & Reiki à Trazegnies | La voie du bien-être",
-	description: "Massage, Shiatsu & Reiki à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+	title: "Massage, Shiatsu & Reiki à Courcelles | La voie du bien-être",
+	description: "Massage, Shiatsu & Reiki à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be",
 	},
@@ -22,10 +22,10 @@ export const metadata: Metadata = {
 		yahoo: "yahoo",
 	},
 	openGraph: {
-		title: "Massage, Shiatsu & Reiki à Trazegnies | La voie du bien-être",
-		description: "Massage, Shiatsu & Reiki à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+		title: "Massage, Shiatsu & Reiki à Courcelles | La voie du bien-être",
+		description: "Massage, Shiatsu & Reiki à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 		url: "https://lavoiedubienetre.be",
-		siteName: "Massage, Shiatsu & Reiki à Trazegnies",
+		siteName: "Massage, Shiatsu & Reiki à Courcelles",
 		images: [
 			{
 				url: "https://lavoiedubienetre.be/img/massage-femme-souriante.webp",
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
 	twitter: {
 	  card: "summary_large_image",
 	  site: "@voiedubienetre", 
-	  title: "Massage, Shiatsu & Reiki à Trazegnies | La voie du bien-être",
-	  description: "Massage, Shiatsu & Reiki à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+	  title: "Massage, Shiatsu & Reiki à Courcelles | La voie du bien-être",
+	  description: "Massage, Shiatsu & Reiki à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 	images: [
 			{
 				url: "https://lavoiedubienetre.be/img/massage-femme-souriante.webp",
@@ -57,7 +57,7 @@ export default function Home() {
 	return (
 		<>
 			<main>
-				<h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight">Massage, Shiatsu & Reiki à Trazegnies</h1>
+				<h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight">Massage, Shiatsu & Reiki à Courcelles</h1>
 
 				<section className="container space-y-4 max-w-4xl mx-auto p-4 mb-12">
 					<p className="text-base text-gray-800 font-light leading-relaxed mb-4">

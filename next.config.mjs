@@ -5,7 +5,16 @@ const nextConfig = {
         "source": "https://www.lavoiedubienetre.be/:path*",
         "destination": "https://lavoiedubienetre.be/:path*",
         "permanent": true
+      },{
+        "source": "/index.html",
+        "destination": "/",
+        "permanent": true
+      },{
+        "source": "/massage-femme-souriante.webp",
+        "destination": "/img/massage-femme-souriante.webp",
+        "permanent": true
       }
+      
     ]
   };
 
