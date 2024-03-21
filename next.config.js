@@ -1,3 +1,5 @@
+
+/*
 const nextConfig = {
   async redirects() {
     return [
@@ -27,10 +29,10 @@ const nextConfig = {
 };
 
 export default nextConfig;
+*/
 
 
 
-/*
 module.exports = {
   async redirects() {
     return [
@@ -42,7 +44,7 @@ module.exports = {
             value: 'www.lavoiedubienetre.be',
           },
         ],
-        permanent: true,
+        statusCode: 301,
         destination: 'https://lavoiedubienetre.be/:path*',
       },
       {
@@ -59,6 +61,6 @@ module.exports = {
   },
 };
 
-*/
+
 
 /** @type {import('next').NextConfig} */
