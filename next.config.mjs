@@ -1,21 +1,64 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-    "redirects": [
+  async redirects() {
+    return [
       {
-        "source": "https://www.lavoiedubienetre.be/:path*",
-        "destination": "https://lavoiedubienetre.be/:path*",
-        "permanent": true
-      },{
-        "source": "/index.html",
-        "destination": "/",
-        "permanent": true
-      },{
-        "source": "/massage-femme-souriante.webp",
-        "destination": "/img/massage-femme-souriante.webp",
-        "permanent": true
-      }
-      
-    ]
-  };
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'www.lavoiedubienetre.be',
+          },
+        ],
+        permanent: true,
+        destination: 'https://lavoiedubienetre.be/:path*',
+      },
+      {
+        source: '/index.html',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/massage-femme-souriante.webp',
+        destination: '/img/massage-femme-souriante.webp',
+        permanent: true,
+      },
+    ];
+  },
+};
 
 export default nextConfig;
+
+
+
+/*
+module.exports = {
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [
+          {
+            type: 'host',
+            value: 'www.lavoiedubienetre.be',
+          },
+        ],
+        permanent: true,
+        destination: 'https://lavoiedubienetre.be/:path*',
+      },
+      {
+        source: '/index.html',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/massage-femme-souriante.webp',
+        destination: '/img/massage-femme-souriante.webp',
+        permanent: true,
+      },
+    ];
+  },
+};
+
+*/
+
+/** @type {import('next').NextConfig} */
