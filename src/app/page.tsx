@@ -5,10 +5,11 @@ import CtaButton from "@/components/cta/CtaButton";
 import MassageCardContainer from "@/components/card/MassageCardContainer";
 import CarrouselContainer from "@/components/carrousel/CarrouselContainer";
 import ContactSection from "@/components/contactForm/ContactSection";
+import config from "../../public/manifest.json"
 
 export const metadata: Metadata = {
-	title: "Massage, Shiatsu & Reiki à Courcelles | La voie du bien-être",
-	description: "Massage, Shiatsu & Reiki à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+	title: "Massage à Courcelles | Shiatsu & Reiki",
+	description: "Massage relaxant à Courcelles. Découvrez nos soins personnalisés (Shiatsu & Reiki), bien-être et sérénité dans un cadre apaisant.",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be",
 	},
@@ -22,8 +23,8 @@ export const metadata: Metadata = {
 		yahoo: "yahoo",
 	},
 	openGraph: {
-		title: "Massage, Shiatsu & Reiki à Courcelles | La voie du bien-être",
-		description: "Massage, Shiatsu & Reiki à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+		title: "Massage relaxant à Courcelles | Shiatsu & Reiki",
+		description: "Massage relaxant à Courcelles. Découvrez nos soins personnalisés (Shiatsu & Reiki) et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 		url: "https://lavoiedubienetre.be",
 		siteName: "Massage, Shiatsu & Reiki à Courcelles",
 		images: [
@@ -47,17 +48,19 @@ export const metadata: Metadata = {
 				url: "https://lavoiedubienetre.be/img/massage-femme-souriante.webp",
 				width: 1200,
 				height: 400,
-				alt: "Femme souriante recevant un de mes massages",
+				alt: "Femme souriante recevant un de mes massages à Courcelles - Charleroi",
 			},
 		],
 	},
   };
 
 export default function Home() {
+	console.log(config.name); 
 	return (
 		<>
 			<main>
-				<h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight">Massage, Shiatsu & Reiki à Courcelles</h1>
+				<h1 className="text-3xl md:text-4xl lg:text-5xl leading-tight">Massage relaxant à Courcelles</h1>
+				<h2 className="text-1xl md:text-2xl lg:text-3xl leading-tight">Shiatsu & Reiki & Réflexologie plantaire</h2>
 
 				<section className="container space-y-4 max-w-4xl mx-auto p-4 mb-12">
 					<p className="text-base text-gray-800 font-light leading-relaxed mb-4">
@@ -108,7 +111,7 @@ export default function Home() {
 					<h2 className="text-3xl md:text-4xl leading-snug mt-4">Mon parcours thérapeutique</h2>
 					<h3 className="text-2xl md:text-3xl text-left custom-mt-2rem leading-normal">Qui suis-je ?</h3>
 					<p className="text-base text-gray-700 font-light leading-relaxed custom-mt-quartRem mb-4">
-						Bonjour, je suis Stéphane G. fondateur de la voie du bien-être et praticien passionné des techniques de bien-être telles que le Shiatsu, le Reiki et la réflexologie plantaire.
+						Bonjour, je suis Stéphane G. fondateur de la voie du bien-être et praticien passionné des techniques de bien-être telles que le Shiatsu, le Reiki, le massage relaxant et la réflexologie plantaire.
 						Avec plus de 20 années d&apos;expérience dans le domaine des soins corporels, je me suis dédié à étudier et à pratiquer ces méthodes traditionnelles et innovantes pour offrir
 						le meilleur à ma clientèle.
 					</p>
