@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { MetadataVoyageDesSens } from "@/components/metadata/MetadataVoyageDesSens";
 
 export const metadata: Metadata = {
-	title: "Massage doux voyage des sens à Trazegnies | Bien-être",
-	description: "Massage doux à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant",
+	title: "Massage doux voyage des sens à Courcelles | Bien-être",
+	description: "Massage doux à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/massage/voyage-des-sens",
 	},/*
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 		yahoo: "yahoo",
 	},
 	openGraph: {
-		title: "Massage des fascias à Trazegnies | La voie du bien-être",
-		description: "Massage doux des fascias à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+		title: "Massage des fascias à Courcelles | La voie du bien-être",
+		description: "Massage doux des fascias à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 		url: "https://lavoiedubienetre.be/massage/voyage-des-sens",
-		siteName: "Massage, Shiatsu & Reiki à Trazegnies",
+		siteName: "Massage, Shiatsu & Reiki à Courcelles",
 		images: [
 			{
 				url: "https://lavoiedubienetre.be/img/massage-femme-souriante.webp",

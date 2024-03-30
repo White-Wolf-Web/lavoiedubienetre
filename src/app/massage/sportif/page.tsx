@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { MetadataMassageSportif } from "@/components/metadata/MetadataMassageSportif";
 
 export const metadata: Metadata = {
-	title: "Massage sportif à Trazegnies | La voie du bien-être",
-	description: "Massage sportif à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+	title: "Massage sportif à Courcelles | La voie du bien-être",
+	description: "Massage sportif à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/massage/sportif",
 	},/*
@@ -17,10 +17,10 @@ export const metadata: Metadata = {
 		yahoo: "yahoo",
 	},
 	openGraph: {
-		title: "Massage sportif à Trazegnies | La voie du bien-être",
-		description: "Massage sportif à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+		title: "Massage sportif à Courcelles | La voie du bien-être",
+		description: "Massage sportif à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 		url: "https://lavoiedubienetre.be/massage/sportif",
-		siteName: "Massage, Shiatsu & Reiki à Trazegnies",
+		siteName: "Massage, Shiatsu & Reiki à Courcelles",
 		images: [
 			{
 				url: "https://lavoiedubienetre.be/img/massage-femme-souriante.webp",

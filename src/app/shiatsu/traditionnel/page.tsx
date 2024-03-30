@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { MetadataShiatsu } from "@/components/metadata/MetadataShiatsu";
 
 export const metadata: Metadata = {
-	title: "Shiatsu à Trazegnies | La voie du bien-être",
-	description: "Shiatsu à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+	title: "Shiatsu à Courcelles | La voie du bien-être",
+	description: "Shiatsu à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/shiatsu/traditionnel",
 	},/*
@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 		yahoo: "yahoo",
 	},
 	openGraph: {
-		title: "Shiatsu à Trazegnies | La voie du bien-être",
-		description: "Shiatsu à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+		title: "Shiatsu à Courcelles | La voie du bien-être",
+		description: "Shiatsu à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 		url: "https://lavoiedubienetre.be/shiatsu/traditionnel",
 		siteName: "Massage, Shiatsu & Reiki à Trazegnies",
 		images: [

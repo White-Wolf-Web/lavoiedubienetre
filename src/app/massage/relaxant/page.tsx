@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Massage relaxant à Trazegnies | La voie du bien-être",
-	description: "Massage relaxant à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+	title: "Massage relaxant à Courcelles | La voie du bien-être",
+	description: "Massage relaxant à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/massage/relaxant",
 	},/*
@@ -16,10 +16,10 @@ export const metadata: Metadata = {
 		yahoo: "yahoo",
 	},
 	openGraph: {
-		title: "Massage relaxant à Trazegnies | La voie du bien-être",
-		description: "Massage relaxant à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+		title: "Massage relaxant à Courcelles | La voie du bien-être",
+		description: "Massage relaxant à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 		url: "https://lavoiedubienetre.be/massage/relaxant",
-		siteName: "Massage, Shiatsu & Reiki à Trazegnies",
+		siteName: "Massage, Shiatsu & Reiki à Courcelles",
 		images: [
 			{
 				url: "https://lavoiedubienetre.be/img/massage-femme-souriante.webp",

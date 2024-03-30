@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://lavoiedubienetre.be'),
   title: "Massage Relaxant Courcelles - Charleroi  | Shiatsu Reiki",
   description: "Découvrez nos massages Shiatsu pour une relaxation profonde et un bien-être durable. Situé à Courcelles dans un espace dédié à votre sérénité",
+  icons: {
+    icon: '/img/favicon/icon-massage-64x64.png',
+  },
 };
 
 export default function RootLayout({

@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Massage anti-cellulite à Trazegnies | La voie du bien-être",
-	description: "Massage anti-cellulite à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+	title: "Massage anti-cellulite à Courcelles | La voie du bien-être",
+	description: "Massage anti-cellulite à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/massage/anti-cellulite",
 	},/*
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 		yahoo: "yahoo",
 	},
 	openGraph: {
-		title: "Massage anti-cellulite à Trazegnies | La voie du bien-être",
+		title: "Massage anti-cellulite à Courcelles | La voie du bien-être",
 		description: "Massage anti-cellulite à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 		url: "https://lavoiedubienetre.be/massage/anti-cellulite",
 		siteName: "Massage, Shiatsu & Reiki à Trazegnies",

@@ -2,8 +2,8 @@ import { MetadataReiki } from "@/components/metadata/MetadataReiki";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Séance de Reiki à Trazegnies | La voie du bien-être",
-	description: "Reiki Usui à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+	title: "Séance de Reiki à Courcelles| La voie du bien-être",
+	description: "Reiki Usui à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/reiki",
 	},
@@ -13,10 +13,10 @@ export const metadata: Metadata = {
 		yahoo: "yahoo",
 	},
 	openGraph: {
-		title: "Séance de Reiki à Trazegnies | La voie du bien-être",
-		description: "Reiki Usui à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
+		title: "Séance de Reiki à Courcelles | La voie du bien-être",
+		description: "Reiki Usui à Courcelles. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 		url: "https://lavoiedubienetre.be/reiki",
-		siteName: "Massage, Shiatsu & Reiki à Trazegnies",
+		siteName: "Massage, Shiatsu & Reiki à Courcelles",
 		images: [
 			{
 				url: "https://lavoiedubienetre.be/img/massage-femme-souriante.webp",
