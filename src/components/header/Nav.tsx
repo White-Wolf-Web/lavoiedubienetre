@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, Fragment, useEffect } from "react";
+import React, { useState, Fragment } from "react";
 import Link from "next/link";
 
 type MenuItem = {
@@ -47,16 +47,6 @@ export default function Nav() {
 			setOpenSubMenu(name); // Open the clicked menu and close others
 		}
 	};
-
-	useEffect(() => {
-		if (openSubMenu) {
-		  const timer = setTimeout(() => {
-			setOpenSubMenu(null);
-		  }, 5000); // Changez 5000 par le délai souhaité en millisecondes
-  
-		  return () => clearTimeout(timer);
-		}
-	  }, [openSubMenu]);
 
 	return (
 		<nav className="bg-white shadow-xl py-4 relative">
