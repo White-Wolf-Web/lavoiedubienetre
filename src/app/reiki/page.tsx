@@ -7,10 +7,6 @@ export const metadata: Metadata = {
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/reiki",
 	},
-	viewport: {
-		width: "device-width",
-		initialScale: 1,
-	},
 	verification: {
 		google: "google",
 		yandex: "yandex",

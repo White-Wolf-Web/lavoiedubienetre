@@ -1,6 +1,6 @@
 import React from 'react'
 import Nav from './Nav'
-import Image from 'next/image'
+import Image from "next/legacy/image"
 import banner from '../../../public/img/banner-massage.webp'
 
 export default function Header() {

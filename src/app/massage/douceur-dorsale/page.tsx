@@ -5,11 +5,11 @@ export const metadata: Metadata = {
 	description: "Massage du dos, des épaules et de la nuque à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/massage/douceur-dorsale",
-	},
+	},/*
 	viewport: {
 		width: "device-width",
 		initialScale: 1,
-	},
+	},*/
 	verification: {
 		google: "google",
 		yandex: "yandex",

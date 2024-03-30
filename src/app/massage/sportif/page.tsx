@@ -6,11 +6,11 @@ export const metadata: Metadata = {
 	description: "Massage sportif à Trazegnies. Découvrez nos soins personnalisés et retrouvez harmonie, bien-être et sérénité dans un cadre apaisant.",
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/massage/sportif",
-	},
+	},/*
 	viewport: {
 		width: "device-width",
 		initialScale: 1,
-	},
+	},*/
 	verification: {
 		google: "google",
 		yandex: "yandex",

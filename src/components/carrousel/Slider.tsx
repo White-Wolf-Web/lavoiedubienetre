@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "./Slider.module.css";
 import sliderData from "@/data/sliderData.json";
 import leftChevron from "../../../public/img/left-arrow.svg";

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from 'next/image';
+import Image from "next/legacy/image";
 import Link from 'next/link';
 import facebook from '../../../public/img/facebook.webp'
 import Instagram from '../../../public/img/Instagram_icon.webp'

@@ -13,10 +13,10 @@ export const metadata: Metadata = {
 	alternates: {
 		canonical: "https://lavoiedubienetre.be",
 	},
-	viewport: {
+	/*viewport: {
 		width: "device-width",
 		initialScale: 1,
-	},
+	},*/
 	verification: {
 		google: "google",
 		yandex: "yandex",

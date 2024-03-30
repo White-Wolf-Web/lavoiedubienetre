@@ -7,10 +7,10 @@ export const metadata: Metadata = {
 	alternates: {
 		canonical: "https://lavoiedubienetre.be/shiatsu/amma",
 	},
-	viewport: {
+	/*viewport: {
 		width: "device-width",
 		initialScale: 1,
-	},
+	},*/
 	verification: {
 		google: "google",
 		yandex: "yandex",
